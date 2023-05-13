@@ -29,8 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.offload.buffer.size.kb=256 \
     vendor.audio.offload.track.enable=true \
     vendor.audio.offload.multiaac.enable=true \
-    vendor.audio.dolby.ds2.enabled=false \
-    vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.offload.multiple.enabled=false \
     vendor.audio.offload.passthrough=false \
     vendor.audio.offload.gapless.enabled=true \
@@ -70,6 +68,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
+
+# Dolby
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio_fx.current=dolby \
+    vendor.audio.dolby.ds2.enabled=true \
+    vendor.audio.dolby.ds2.hardbypass=true \
+    ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
