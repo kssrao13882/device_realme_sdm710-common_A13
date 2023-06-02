@@ -401,7 +401,7 @@
     <bool name="config_intrusiveBatteryLed">false</bool>
 
     <!-- Whether the device supports Smart Pixels -->
-    <bool name="config_enableSmartPixels">true</bool>
+    <bool name="config_supportSmartPixels">true</bool>
 
     <!-- Whether device has VOOC charging support -->
     <bool name="config_hasVoocCharger">true</bool>
