@@ -118,6 +118,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.use_content_detection_for_refresh_rate=true \
     ro.hardware.vulkan=adreno \
     debug.sf.treat_170m_as_sRGB=1 \
+    debug.sf.enable_transaction_tracing=false \
     ro.hardware.egl=adreno
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
